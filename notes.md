@@ -132,9 +132,14 @@ and
 or
 not
 
-lines 213-226 on file app.py
+lines 228-251 on file app.py
 
- 
+ Ternary Operator - 
+
+
+lines 228-251 on file app.py
+
+
 
 
 

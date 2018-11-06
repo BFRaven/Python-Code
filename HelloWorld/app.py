@@ -232,15 +232,37 @@ first = "May"
 last= "June"
 
 # name = f"{first} {last}"
-name = ""
+name = " "
 
-if not name:
+# to get rid of white space use the strip() method
+if not name.strip():
     print("Please enter name")
 else:
     print("Welcome", name)
 
+# and
+
+age = 28
+user = "Karen"
+
+# 18 <= age < age = if age >= 18 and age < 50
+
+if 18 <= age < 55:
+    print("You are eligible", user)
 
 
+#  Ternary Operator 
+
+edad = 20
+
+if edad >= 19:
+    message = "Eligible"
+else:
+    message = "Not eligible"
+
+message = "Eligible" if edad >=19 else "Not eligible"
+
+print(message)
 
 
 
