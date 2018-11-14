@@ -139,9 +139,26 @@ lines 228-251 on file app.py
 
 lines 228-251 on file app.py
 
+# FOR LOOPS and While loops
+
+for loops
+strings are iterable in Python; 
+
+for x in "Karen"
+
+where x is where we hold the character for each letter in our string.
+
+lines 267-287 on file app.py
+
+# For.. ELSE
 
 
 
+ # defining functions
+ def greet(name):
+    print("Hello", name)
+
+    
 
 
 

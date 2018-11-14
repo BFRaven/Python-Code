@@ -5,11 +5,11 @@ import math
 
 
 # Print is a Python function to print in the console (akin to console.log in JS)
-print("Hello World")
+# print("Hello World")
 
 # The code below will print stars in the console 10 times.
 
-print("*" * 10)
+# print("*" * 10)
 
 # Linting exercise
 # 2 + 3
@@ -264,10 +264,30 @@ message = "Eligible" if edad >=19 else "Not eligible"
 
 print(message)
 
+# FOR LOOPS and While loops
+# looping strings
+# for x in "Karen":
+#     print(x)
 
 
+# for x in ["b", "e", "l"]:
+#     print(x)
+# looping numbers use the built in range function, the things that are returned are range objects:
+# for x in range(7):
+#         print(x)
+
+#     # you get numbers 0-6
+
+# for x in range(3, 7):
+#         print(x)
+    # you get numbers 3-6
+
+# display even numbers between 0-8, the third parameter is called a step
+for x in range(0, 8, 2):
+        print(x)
 
 
+# For.. ELSE
 
 
 
